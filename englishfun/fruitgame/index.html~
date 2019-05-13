@@ -1,0 +1,60 @@
+<!--Teaching Fruits To English Learners -->
+<!DOCTYPE html>
+<html lang = "en">
+	<head> 
+		<title>Fruits Game </title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+		<link rel = "stylesheet" href="fruitgame.css">
+		
+		
+	</head>
+	
+	<body>
+	
+		<div id="container">
+			<div id="score">
+				Score: <span id="scorevalue">0</span>
+				
+			</div>
+				<div id="trialsLeft">
+					
+				</div>
+				
+				<div id="correct">
+					Correct
+				</div>
+				<div id="wrong">
+					Try again
+				</div>
+				<div id="fruitsContainer">
+					<img id="fruit0" class="fruit"> <img>
+					<img id="fruit1" class="fruit"> <img>
+					<img id="fruit2" class="fruit"> <img>
+
+				</div>
+				
+				<div id="instructions">
+					Catch Fruits
+				</div>
+				
+				<div id="startreset">
+					Start Game
+				</div>
+				
+				<div id="gameOver">
+
+				</div>
+		</div>
+		<audio id="slicesound">
+			<source src="/audio/slicefruit.ogg"></source>
+			<source src="/audio/slicefruit.mp3"> </source>
+		</audio>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+		<script src="fruitgame.js"></script>
+	</body>
+
+
+</html>
